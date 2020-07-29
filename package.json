@@ -1,0 +1,31 @@
+{
+  "name": "websocket-server-wss-edition",
+  "version": "0.0.1",
+  "description": "This is a Websocket Service(Test for Chat APP)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/konnyaku-studio-team/chatroom-app-server-wssedition.git"
+  },
+  "keywords": [
+    "chatroom",
+    "websocket",
+    "chat",
+    "safe"
+  ],
+  "author": "chihuo2104",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/konnyaku-studio-team/chatroom-app-server-wssedition/issues"
+  },
+  "homepage": "https://github.com/konnyaku-studio-team/chatroom-app-server-wssedition#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "https": "^1.0.0",
+    "ws": "^7.3.1"
+  }
+}
